@@ -1,2 +1,16 @@
-[workspace]
-members = ["programs/nft_gated_access"]
+[package]
+name = "nft_gated_access"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "nft_gated_access"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anchor-lang = "0.31.1"
+anchor-spl = "0.31.1"
+solana-program = "1.18.2"
+
+[features]
+default = []
