@@ -1,0 +1,2 @@
+[workspace]
+members = ["programs/nft_gated_access"]

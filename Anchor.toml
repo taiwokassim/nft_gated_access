@@ -1,0 +1,14 @@
+[workspace]
+members = [
+  "programs/*"
+]
+
+[programs.devnet]
+nft_gated_access = "Fg6PaFpoGXkYsidMpWxqSWd8w9egY8j4cxrCzr3iP4Rk"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[tests]
+dir = "./tests"

@@ -1,5 +1,3 @@
-# nft_gated_access
-
 # NFT Gated Access (Codigo DevQuest)
 
 **What:** Anchor program that restricts an instruction to wallets holding a given NFT (SPL token mint with supply 1). This is contest-ready and includes working unit tests.
