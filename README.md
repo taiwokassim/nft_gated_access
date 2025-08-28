@@ -24,5 +24,9 @@ anchor test
 ## Extension (Metaplex verification)
 If you need to assert that the NFT belongs to a verified Metaplex collection, extend the `ExclusiveAction` accounts to include the Metadata account from the Metaplex Token Metadata program and verify `collection.verified` using `mpl-token-metadata` or `mpl-core` logic inside the program. This scaffold uses token-account checks for reliability and speed in tests; add Metaplex checks if judges expect `mpl-core` usage.
 
+## use the diagram to get a picture view of how it works 
+
+https://github.com/taiwokassim/nft_gated_access/raw/main/file_000000006c8c62439ad62d7f519084ad.png
+
 ## Notes
 - Uses Anchor `0.31.1`. If you hit compatibility errors with Metaplex crates later, you may need to switch to `0.30.1`.
